@@ -1,0 +1,21 @@
+{
+  "name": "pdf-api-backend",
+  "version": "1.0.0",
+  "description": "PDF workflow API backend for Playwright testing",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "pdf-parse": "^1.1.1",
+    "pdf-lib": "^1.17.1",
+    "cors": "^2.8.5",
+    "googleapis": "^140.0.0",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.0"
+  }
+}

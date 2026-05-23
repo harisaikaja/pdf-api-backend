@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: pdf-workflow-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: JWT_SECRET
+        value: pdf-api-secret-key-2025
+      - key: NODE_ENV
+        value: production
